@@ -1,0 +1,38 @@
+{
+  "_id": "page.choose-form-or-documents",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.choose-form-or-documents--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.choose-form-or-documents--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "A form",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.choose-form-or-documents--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Supplementary document(s)",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Forms or Supplementary Documents?",
+      "name": "auto_name__1"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "What are you submitting today?",
+  "showSteps": {
+    "identifier": "auto_name__1",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.forms-options",
+    "page.Supplementary-documents",
+    "page.check-answers"
+  ],
+  "url": "choose-form-or-documents"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "page.forms-basic-info",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.forms-basic-info--text.auto_name__4",
+      "_type": "text",
+      "label": "First Name",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.forms-basic-info--text.auto_name__5",
+      "_type": "text",
+      "label": "Last Name",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.forms-basic-info--text.auto_name__6",
+      "_type": "text",
+      "label": "Case Reference ",
+      "name": "auto_name__6"
+    },
+    {
+      "_id": "page.forms-basic-info--email.auto_name__7",
+      "_type": "email",
+      "label": "Email",
+      "name": "auto_name__7"
+    },
+    {
+      "_id": "page.forms-basic-info--hidden.auto_name__8",
+      "_type": "hidden",
+      "name": "selected_form_name"
+    }
+  ],
+  "heading": "Basic contact information",
+  "url": "forms-basic-info"
+}

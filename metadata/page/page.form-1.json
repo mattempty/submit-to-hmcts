@@ -1,0 +1,19 @@
+{
+  "_id": "page.form-1",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.form-1--text.auto_name__8",
+      "_type": "text",
+      "label": "First Field",
+      "name": "auto_name__8"
+    }
+  ],
+  "heading": "Form 1",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "form-1"
+}

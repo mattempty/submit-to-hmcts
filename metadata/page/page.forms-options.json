@@ -31,7 +31,11 @@
   ],
   "enableSteps": true,
   "heading": "Select one of the following forms",
-  "show": true,
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
   "steps": [
     "page.forms-basic-info",
     "page.form-1",

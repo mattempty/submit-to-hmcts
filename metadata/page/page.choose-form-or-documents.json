@@ -30,9 +30,7 @@
     "operator": "defined"
   },
   "steps": [
-    "page.forms-options",
-    "page.Supplementary-documents",
-    "page.check-answers"
+    "page.forms-options"
   ],
   "url": "choose-form-or-documents"
 }

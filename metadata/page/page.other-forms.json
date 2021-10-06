@@ -1,0 +1,12 @@
+{
+  "_id": "page.other-forms",
+  "_type": "page.exit",
+  "heading": "Other forms",
+  "lede": "Find a list of form at [gov.uk](https://gov.uk)",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
+  "url": "other-forms"
+}

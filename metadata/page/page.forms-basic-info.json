@@ -33,5 +33,11 @@
     }
   ],
   "heading": "Basic contact information",
+  "show": {
+    "identifier": "auto_name__2",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__5"
+  },
   "url": "forms-basic-info"
 }

@@ -4,7 +4,9 @@
   "heading": "Submit to HMCTS",
   "lede": "This app allows you submit additional information or forms to HMCTS",
   "steps": [
-    "page.choose-form-or-documents"
+    "page.choose-form-or-documents",
+    "page.cya",
+    "page.confirm"
   ],
   "url": "/"
 }

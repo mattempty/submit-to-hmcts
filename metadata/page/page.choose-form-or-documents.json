@@ -25,14 +25,10 @@
   ],
   "enableSteps": true,
   "heading": "What are you submitting today?",
-  "showSteps": {
-    "identifier": "auto_name__1",
-    "operator": "defined"
-  },
+  "showSteps": true,
   "steps": [
     "page.forms-options",
-    "page.Supplementary-documents",
-    "page.check-answers"
+    "page.supp-docs"
   ],
   "url": "choose-form-or-documents"
 }

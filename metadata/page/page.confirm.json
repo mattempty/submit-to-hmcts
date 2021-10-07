@@ -1,6 +1,5 @@
 {
   "_id": "page.confirm",
   "_type": "page.confirmation",
-  "heading": "Test",
   "url": "confirm"
 }

@@ -1,0 +1,12 @@
+{
+  "_id": "page.other-form-exit",
+  "_type": "page.exit",
+  "heading": "Other form",
+  "lede": "For more forms please check out [gov.uk](https://gov.uk)",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
+  "url": "other-form-exit"
+}

@@ -27,8 +27,10 @@
   "heading": "What are you submitting today?",
   "showSteps": true,
   "steps": [
+
     "page.forms-options",
     "page.supp-docs"
+
   ],
   "url": "choose-form-or-documents"
 }

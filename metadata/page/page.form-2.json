@@ -1,17 +1,16 @@
 {
   "_id": "page.form-2",
-  "_type": "page.form",
+  "_type": "page.singlequestion",
   "components": [
     {
       "_id": "page.form-2--text.auto_name__9",
       "_type": "text",
-      "label": "Field 1",
+      "label": "Form 2",
       "name": "auto_name__9"
     }
   ],
-  "heading": "Form-2",
   "show": {
-    "identifier": "auto_name__2",
+    "identifier": "auto_name__3",
     "operator": "is",
     "value": "auto_value__4"
   },

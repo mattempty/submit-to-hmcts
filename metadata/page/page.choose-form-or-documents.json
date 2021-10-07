@@ -1,6 +1,6 @@
 {
   "_id": "page.choose-form-or-documents",
-  "_type": "page.form",
+  "_type": "page.singlequestion",
   "components": [
     {
       "_id": "page.choose-form-or-documents--radios.auto_name__1",
@@ -19,18 +19,9 @@
           "value": "auto_value__2"
         }
       ],
-      "legend": "Forms or Supplementary Documents?",
+      "legend": "What are you submitting today?",
       "name": "auto_name__1"
     }
-  ],
-  "enableSteps": true,
-  "heading": "What are you submitting today?",
-  "showSteps": true,
-  "steps": [
-
-    "page.forms-options",
-    "page.supp-docs"
-
   ],
   "url": "choose-form-or-documents"
 }

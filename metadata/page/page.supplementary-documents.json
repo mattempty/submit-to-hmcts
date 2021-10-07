@@ -1,0 +1,21 @@
+{
+  "_id": "page.supplementary-documents",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.supplementary-documents--upload.auto_name__2",
+      "_type": "upload",
+      "label": "Submit to HMCTS",
+      "name": "auto_name__2"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
+  "steps": [
+    "page.supplementary-documents-check"
+  ],
+  "url": "supplementary-documents"
+}

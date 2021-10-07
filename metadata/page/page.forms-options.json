@@ -1,48 +1,43 @@
 {
   "_id": "page.forms-options",
-  "_type": "page.form",
+  "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.forms-options--radios.auto_name__2",
+      "_id": "page.forms-options--radios.auto_name__3",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.forms-options--radios.auto_name__2--radio.auto_value__3",
+          "_id": "page.forms-options--radios.auto_name__3--radio.auto_value__3",
           "_type": "radio",
           "label": "Form 1",
           "value": "auto_value__3"
         },
         {
-          "_id": "page.forms-options--radios.auto_name__2--radio.auto_value__4",
+          "_id": "page.forms-options--radios.auto_name__3--radio.auto_value__4",
           "_type": "radio",
           "label": "Form 2",
           "value": "auto_value__4"
         },
         {
-          "_id": "page.forms-options--radios.auto_name__2--radio.auto_value__5",
+          "_id": "page.forms-options--radios.auto_name__3--radio.auto_value__5",
           "_type": "radio",
           "label": "Other",
           "value": "auto_value__5"
         }
       ],
-      "legend": "Available Forms",
-      "name": "auto_name__2"
+      "legend": "Select one of the following forms",
+      "name": "auto_name__3"
     }
   ],
   "enableSteps": true,
-  "heading": "Select one of the following forms",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
     "value": "auto_value__1"
   },
   "steps": [
-    "page.forms-basic-info",
-    "page.form-1",
-    "page.form-2",
-
-    "page.other-form-exit"
-
+    "page.other-form",
+    "page.forms-basic-info"
   ],
   "url": "forms-options"
 }

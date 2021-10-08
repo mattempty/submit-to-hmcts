@@ -10,9 +10,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__3",
+    "identifier": "auto_name__1",
     "operator": "is",
-    "value": "auto_value__3"
+    "value": "auto_value__1"
   },
   "url": "form-1"
 }

@@ -5,8 +5,8 @@
   "lede": "This app allows you submit additional information or forms to HMCTS",
   "steps": [
     "page.choose-form-or-documents",
-    "page.supplementary-documents",
-    "page.forms-options",
+    "page.forms-basic-info",
+    "page.other-form",
     "page.cya",
     "page.confirmation"
   ],

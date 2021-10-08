@@ -31,15 +31,16 @@
       }
     }
   ],
-  "enableSteps": true,
+  "enableSteps": false,
   "heading": "Basic contact information",
   "show": {
-    "identifier": "auto_name__3",
+    "identifier": "auto_name__1",
     "negated": true,
     "operator": "is",
-    "value": "auto_value__5"
+    "value": "auto_value__4"
   },
   "steps": [
+    "page.supplementary-documents",
     "page.form-1",
     "page.form-2"
   ],
